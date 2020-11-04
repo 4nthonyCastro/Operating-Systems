@@ -1,0 +1,7 @@
+Question 1 - Anthony Castro(myself), Gene Tigner (medium) - Helped me get an understanding of what the assignment was requesting of me and general understanding of forking processes.  Mohammed R (small) - Attempted to explain my understanding of forking. 
+
+Question 2 - Yes
+
+Question 3 - Everything is working fine. 
+
+Question 4 - Realized I did not know much about forking process and having zombies produced. I learned how to fork bomb my system. The assignment wasn’t too hard it was more about grasping how parents relate to children. This was my first time using xcode to help me complete this project as well as I normally run on the fox machines. 
