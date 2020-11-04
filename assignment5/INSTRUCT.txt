@@ -1,0 +1,5 @@
+			*** INSTRUCTIONS TO RUN CODE *** 
+
+java Prog prog -alg [FIFO|SJF|PR] -input [/fje987-assign5/src/input1.txt (PATH)]
+
+java prog -alg [RR] [-quantum [integer(ms)]] -input [/fje987-assign5/src/input1.txt (PATH)]

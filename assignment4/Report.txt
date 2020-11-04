@@ -1,0 +1,319 @@
+========================================
+========================================
+OUTPUT: 
+
+fox02{fje987}16: make
+gcc -o part1 assign4-part1.c -pthread
+
+fox02{fje987}17: part1 5
+Anthony Castro  Assignment 4: # of threads = 5 
+This is philosopher 0
+This is philosopher 1
+This is philosopher 2
+This is philosopher 3
+This is philosopher 4
+This is philosopher 5
+5 threads have been completed/joined successfully!
+
+fox02{fje987}22: part1 20
+Anthony Castro  Assignment 4: # of threads = 20 
+This is philosopher 0
+This is philosopher 1
+This is philosopher 2
+This is philosopher 3
+This is philosopher 4
+This is philosopher 5
+This is philosopher 6
+This is philosopher 7
+This is philosopher 8
+This is philosopher 9
+This is philosopher 10
+This is philosopher 11
+This is philosopher 12
+This is philosopher 13
+This is philosopher 14:
+This is philosopher 15
+This is philosopher 16
+This is philosopher 17
+This is philosopher 18
+This is philosopher 19
+This is philosopher 20
+20 threads have been completed/joined successfully!
+
+    For assign4-part1.c I used pthread_join inside main to for loop through all threads in order for main to wait for completion of threads.
+    Ran script on executable and did not get any deadlocks as it reached 1000. 
+
+make
+gcc -std=c99 -o part2 assign4-part2.c -pthread
+
+fox02{fje987}32: part2 5
+Anthony Castro Assignment 4: # of threads = 5 
+Philosopher 1 thinks for 3 seconds
+Philosopher 2 thinks for 3 seconds
+Philosopher 3 thinks for 0 seconds
+Philosopher 3 has picked up chopsticks 
+Philosopher 3 eats for 2 seconds 
+Philosopher 4 thinks for 4 seconds
+Philosopher 5 thinks for 1 seconds
+Philosopher 5 has picked up chopsticks 
+Philosopher 5 eats for 1 seconds 
+Philosopher 3 has finished eating 
+Philosopher 5 has finished eating 
+Philosopher 1 has picked up chopsticks 
+Philosopher 1 eats for 2 seconds 
+Philosopher 4 has picked up chopsticks 
+Philosopher 4 eats for 2 seconds 
+Philosopher 1 has finished eating 
+Philosopher 2 has picked up chopsticks 
+Philosopher 2 eats for 0 seconds 
+Philosopher 2 has finished eating 
+Philosopher 4 has finished eating 
+fox02{fje987}33: 
+
+fox02{fje987}35: part2 20
+Anthony Castro Assignment 4: # of threads = 20 
+Philosopher 1 thinks for 8 seconds
+Philosopher 2 thinks for 7 seconds
+Philosopher 3 thinks for 10 seconds
+Philosopher 4 thinks for 4 seconds
+Philosopher 5 thinks for 3 seconds
+Philosopher 6 thinks for 19 seconds
+Philosopher 7 thinks for 1 seconds
+Philosopher 8 thinks for 11 seconds
+Philosopher 9 thinks for 15 seconds
+Philosopher 10 thinks for 2 seconds
+Philosopher 11 thinks for 2 seconds
+Philosopher 12 thinks for 16 seconds
+Philosopher 13 thinks for 14 seconds
+Philosopher 14 thinks for 0 seconds
+Philosopher 14 has picked up chopsticks 
+Philosopher 14 eats for 18 seconds 
+Philosopher 15 thinks for 5 seconds
+Philosopher 16 thinks for 7 seconds
+Philosopher 17 thinks for 12 seconds
+Philosopher 18 thinks for 5 seconds
+Philosopher 19 thinks for 4 seconds
+Philosopher 20 thinks for 4 seconds
+Philosopher 7 has picked up chopsticks 
+Philosopher 7 eats for 10 seconds 
+Philosopher 10 has picked up chopsticks 
+Philosopher 10 eats for 5 seconds 
+Philosopher 5 has picked up chopsticks 
+Philosopher 5 eats for 17 seconds 
+Philosopher 19 has picked up chopsticks 
+Philosopher 19 eats for 11 seconds 
+Philosopher 2 has picked up chopsticks 
+Philosopher 2 eats for 6 seconds 
+Philosopher 10 has finished eating 
+Philosopher 11 has picked up chopsticks 
+Philosopher 11 eats for 14 seconds 
+Philosopher 7 has finished eating 
+Philosopher 8 has picked up chopsticks 
+Philosopher 8 eats for 12 seconds 
+Philosopher 2 has finished eating 
+Philosopher 1 has picked up chopsticks 
+Philosopher 1 eats for 2 seconds 
+Philosopher 1 has finished eating 
+Philosopher 19 has finished eating 
+Philosopher 20 has picked up chopsticks 
+Philosopher 20 eats for 8 seconds 
+Philosopher 18 has picked up chopsticks 
+Philosopher 18 eats for 8 seconds 
+Philosopher 14 has finished eating 
+Philosopher 15 has picked up chopsticks 
+Philosopher 15 eats for 1 seconds 
+Philosopher 13 has picked up chopsticks 
+Philosopher 13 eats for 7 seconds 
+Philosopher 15 has finished eating 
+Philosopher 16 has picked up chopsticks 
+Philosopher 16 eats for 17 seconds 
+Philosopher 5 has finished eating 
+Philosopher 4 has picked up chopsticks 
+Philosopher 6 has picked up chopsticks 
+Philosopher 6 eats for 9 seconds 
+Philosopher 4 eats for 5 seconds 
+Philosopher 11 has finished eating 
+Philosopher 8 has finished eating 
+Philosopher 9 has picked up chopsticks 
+Philosopher 9 eats for 16 seconds 
+Philosopher 20 has finished eating 
+Philosopher 18 has finished eating 
+Philosopher 4 has finished eating 
+Philosopher 3 has picked up chopsticks 
+Philosopher 3 eats for 17 seconds 
+Philosopher 13 has finished eating 
+Philosopher 12 has picked up chopsticks 
+Philosopher 12 eats for 11 seconds 
+Philosopher 6 has finished eating 
+Philosopher 16 has finished eating 
+Philosopher 17 has picked up chopsticks 
+Philosopher 17 eats for 2 seconds 
+Philosopher 12 has finished eating 
+Philosopher 17 has finished eating 
+Philosopher 9 has finished eating 
+Philosopher 3 has finished eating 
+fox02{fje987}36: 
+
+fox02{fje987}17: make
+gcc -std=c99 -o part3 assign4-part3.c -pthread
+
+fox02{fje987}19: part3 5
+Anthony Castro Assignment 4: # of threads = 5 
+Philosopher 1 thinks for 1 seconds 
+Philosopher 2 thinks for 0 seconds 
+Philosopher 3 thinks for 4 seconds 
+Philosopher 4 thinks for 0 seconds 
+Philosopher 5 thinks for 2 seconds 
+Philosopher 1 has picked up chopsticks 
+Philosopher 1 eats for 1 seconds 
+Philosopher 1 has finished eating 
+Philosopher 2 has picked up chopsticks 
+Philosopher 2 eats for 4 seconds 
+Philosopher 2 has finished eating 
+Philosopher 3 has picked up chopsticks 
+Philosopher 3 eats for 3 seconds 
+Philosopher 3 has finished eating 
+Philosopher 4 has picked up chopsticks 
+Philosopher 4 eats for 2 seconds 
+Philosopher 4 has finished eating 
+Philosopher 5 has picked up chopsticks 
+Philosopher 5 eats for 4 seconds 
+Philosopher 5 has finished eating 
+fox02{fje987}20: 
+
+fox02{fje987}23: part3 20
+Anthony Castro Assignment 4: # of threads = 20 
+Philosopher 1 thinks for 9 seconds 
+Philosopher 2 thinks for 15 seconds 
+Philosopher 3 thinks for 13 seconds 
+Philosopher 4 thinks for 4 seconds 
+Philosopher 5 thinks for 15 seconds 
+Philosopher 6 thinks for 9 seconds 
+Philosopher 7 thinks for 10 seconds 
+Philosopher 8 thinks for 16 seconds 
+Philosopher 9 thinks for 6 seconds 
+Philosopher 10 thinks for 12 seconds 
+Philosopher 11 thinks for 1 seconds 
+Philosopher 12 thinks for 2 seconds 
+Philosopher 13 thinks for 4 seconds 
+Philosopher 14 thinks for 10 seconds 
+Philosopher 15 thinks for 7 seconds 
+Philosopher 16 thinks for 3 seconds 
+Philosopher 17 thinks for 10 seconds 
+Philosopher 18 thinks for 7 seconds 
+Philosopher 19 thinks for 5 seconds 
+Philosopher 20 thinks for 7 seconds 
+Philosopher 1 has picked up chopsticks 
+Philosopher 1 eats for 10 seconds 
+Philosopher 1 has finished eating 
+Philosopher 2 has picked up chopsticks 
+Philosopher 2 eats for 1 seconds 
+Philosopher 2 has finished eating 
+Philosopher 3 has picked up chopsticks 
+Philosopher 3 eats for 10 seconds 
+Philosopher 3 has finished eating 
+Philosopher 4 has picked up chopsticks 
+Philosopher 4 eats for 13 seconds 
+Philosopher 4 has finished eating 
+Philosopher 5 has picked up chopsticks 
+Philosopher 5 eats for 16 seconds 
+Philosopher 5 has finished eating 
+Philosopher 6 has picked up chopsticks 
+Philosopher 6 eats for 0 seconds 
+Philosopher 6 has finished eating 
+Philosopher 7 has picked up chopsticks 
+Philosopher 7 eats for 17 seconds 
+Philosopher 7 has finished eating 
+Philosopher 8 has picked up chopsticks 
+Philosopher 8 eats for 11 seconds 
+Philosopher 8 has finished eating 
+Philosopher 9 has picked up chopsticks 
+Philosopher 9 eats for 15 seconds 
+Philosopher 9 has finished eating 
+Philosopher 10 has picked up chopsticks 
+Philosopher 10 eats for 0 seconds 
+Philosopher 10 has finished eating 
+Philosopher 11 has picked up chopsticks 
+Philosopher 11 eats for 10 seconds 
+Philosopher 11 has finished eating 
+Philosopher 12 has picked up chopsticks 
+Philosopher 12 eats for 3 seconds 
+Philosopher 12 has finished eating 
+Philosopher 13 has picked up chopsticks 
+Philosopher 13 eats for 14 seconds 
+Philosopher 13 has finished eating 
+Philosopher 14 has picked up chopsticks 
+Philosopher 14 eats for 14 seconds 
+Philosopher 14 has finished eating 
+Philosopher 15 has picked up chopsticks 
+Philosopher 15 eats for 7 seconds 
+Philosopher 15 has finished eating 
+Philosopher 16 has picked up chopsticks 
+Philosopher 16 eats for 0 seconds 
+Philosopher 16 has finished eating 
+Philosopher 17 has picked up chopsticks 
+Philosopher 17 eats for 15 seconds 
+Philosopher 17 has finished eating 
+Philosopher 18 has picked up chopsticks 
+Philosopher 18 eats for 8 seconds 
+Philosopher 18 has finished eating 
+Philosopher 19 has picked up chopsticks 
+Philosopher 19 eats for 15 seconds 
+Philosopher 19 has finished eating 
+Philosopher 20 has picked up chopsticks 
+Philosopher 20 eats for 0 seconds 
+Philosopher 20 has finished eating 
+
+    Using condition variables check for match with index and value of the next index which frees thread. Otherwise it makes thread wait until condition is met. 
+
+fox02{fje987}27: make
+gcc -std=c99 -o part4 assign4-part4.c -pthread
+
+fox02{fje987}31: part4 5
+Anthony Castro Assignment 4: # of threads = 5 
+Philosopher 1 thinks for 0 seconds 
+Philosopher 1 has picked up chopsticks
+Philosopher 1 eats for 2 seconds
+Philosopher 2 thinks for 3 seconds 
+Philosopher 3 thinks for 3 seconds 
+Philosopher 4 thinks for 0 seconds 
+Philosopher 4 has picked up chopsticks
+Philosopher 4 eats for 3 seconds
+Philosopher 5 thinks for 3 seconds 
+Philosopher 1 has finished eating
+Philosopher 2 has picked up chopsticks
+Philosopher 2 eats for 0 seconds
+Philosopher 2 has finished eating
+Philosopher 4 has finished eating
+Philosopher 3 has picked up chopsticks
+Philosopher 3 eats for 1 seconds
+Philosopher 5 has picked up chopsticks
+Philosopher 5 eats for 4 seconds
+Philosopher 3 has finished eating
+Philosopher 5 has finished eating
+
+
+    Bonus completed with while loops checking the trylocks. While loops until it's set to 0 which flags as a pass. 
+
+========================================
+========================================
+REPORT_QUESTIONS:
+
+1.) 
+    The instructor himself helped me as well as listening to the questions all the other students had for him after class. Max Brecheisen helped understand part2 
+    and part3. 
+
+2.) 
+    I believe everything is working as expected. 
+
+3.)
+    I believe everything is working as expected. 
+
+4.)
+    The biggest challenge was understanding the mutex locks and how they work interchangeably with pthreads. I also could not figure out how to get pthreads to work 
+    over the fox servers so I started working on this project on my person Mac laptop. Later learning that there is a way to get pthread to be recognized over the fox
+    servers transferring my code from personal to fox did not output the same results. Realizing there was differences between operating systems and how it handles
+    code.
+
+========================================
+========================================

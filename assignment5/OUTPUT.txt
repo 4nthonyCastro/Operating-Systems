@@ -1,0 +1,29 @@
+
+Input File Name  		: input1.txt
+CPU Scheduling Alg		: FIFO 
+CPU Utilization			: 176
+Throughput			: 0.010
+Avg. Turaround Time		: 342.600
+Avg. Waiting Time in R Queue	: 158.200
+
+Input File Name  		: input1.txt
+CPU Scheduling Alg		: SJF 
+CPU Utilization			: 245
+Throughput			: 0.011
+Avg. Turaround Time		: 218.400
+Avg. Waiting Time in R Queue	: 77.200
+
+Input File Name  		: input1.txt
+CPU Scheduling Alg		: PR 
+CPU Utilization			: 188
+Throughput			: 0.011
+Avg. Turaround Time		: 211.200
+Avg. Waiting Time in R Queue	: 91.200
+
+Input File Name  		: input1.txt
+CPU Scheduling Alg		: RR (1)
+CPU Utilization			: 471
+Throughput			: 0.007
+Avg. Turaround Time		: 487.400
+Avg. Waiting Time in R Queue	: 202.200
+
